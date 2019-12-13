@@ -19,4 +19,4 @@ phases:
       
   artifacts:
   files:
-     - target/testwebapp.war
+     - target/testwebapp-0.0.1-SNAPSHOT.war
