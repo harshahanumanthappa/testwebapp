@@ -15,7 +15,8 @@ phases:
       - echo build
   post_build:
     commands:
-      - echo post_build   
-  artifacts:
+      - echo post_build
+      
+artifacts:
   files:
      - target/testwebapp-0.0.1-SNAPSHOT.war
