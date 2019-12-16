@@ -16,6 +16,7 @@ phases:
   post_build:
     commands:
       - echo post_build
+      - mv target/* ./
       
 artifacts:
   files:
